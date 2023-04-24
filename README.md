@@ -65,7 +65,7 @@ With the header: Authorization: bearer <YOUR_API_TOKEN>
 
 http://localhost:1337/api/articles
 
-export GOOGLE_APPLICATION_CREDENTIALS=.service-account/[SERVICE_ACCOUNT]
+export GOOGLE_APPLICATION_CREDENTIALS=.service-accounts/[SERVICE_ACCOUNT]
 
 ```bash
 NODE_ENV=production npm run build

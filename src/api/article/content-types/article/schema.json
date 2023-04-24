@@ -11,21 +11,24 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "body": {
-      "type": "richtext"
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     },
     "title": {
       "type": "string"
     },
+    "body": {
+      "type": "richtext"
+    },
     "date": {
       "type": "date"
-    },
-    "cover": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }
